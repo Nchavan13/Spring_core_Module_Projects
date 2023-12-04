@@ -1,0 +1,25 @@
+package com.niltech.service;
+
+import com.niltech.dao.IEmployeedao;
+import com.niltech.dto.EmployeeDTO;
+
+public class EmployeeMgmtServiceimpl implements IEmployeeMgmtService {
+	
+	private IEmployeedao dao;
+	
+
+	public EmployeeMgmtServiceimpl(IEmployeedao dao) {
+		System.out.println("EmployeeMgmtServiceimpl::1-param contructor()");
+		this.dao = dao;
+	}
+
+
+
+	@Override
+	public String registerEmployee(EmployeeDTO dto) throws Exception {
+		
+		
+		return null;
+	}
+
+}

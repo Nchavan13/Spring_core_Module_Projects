@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="IOCProj07-Setter_VS_Constructor"/>
+<aop-project name="IOCProj06-StrategyDPWithFactoryDP-Spring"/>
+<aop-project name="IOCProj08CyclicDI_setter_injection"/>
+</aop-reference-model>

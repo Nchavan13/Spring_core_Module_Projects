@@ -1,0 +1,5 @@
+package com.niltech.dto;
+
+public class EmployeeDTO {
+
+}

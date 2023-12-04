@@ -1,0 +1,37 @@
+package com.niltech.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import javax.sql.DataSource;
+
+import com.niltech.bo.EmployeeBO;
+
+public class EmployeeDAOImpl implements IEmployeedao {
+	
+	private static final String EMP_INSERT_QUERY="INSERT INTO REALTIMEDI_SPRING_EMPLOYEE VALUES(,?,?,?,?,?)";
+	
+	private DataSource ds;
+	
+	public EmployeeDAOImpl(DataSource ds) {
+		this.ds=ds;
+	}
+	
+	
+
+	@Override
+	public int insertEmployee(EmployeeBO bo) throws Exception {
+		
+		Connection con=null;
+		PreparedStatement ps=null;
+		try {
+			//get pooled JDBC con object
+			con=ds.getConnection();
+			ps=con.prepareStatement(EMP_INSERT_QUERY);			
+		}catch (Exception e) {
+		}
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.niltech.vo;
+
+public class EmployeeVO {
+
+}

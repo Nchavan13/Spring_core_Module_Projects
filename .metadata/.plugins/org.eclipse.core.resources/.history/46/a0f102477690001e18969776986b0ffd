@@ -1,0 +1,5 @@
+package com.niltech.dao;
+
+public interface IEmployeedao {
+
+}

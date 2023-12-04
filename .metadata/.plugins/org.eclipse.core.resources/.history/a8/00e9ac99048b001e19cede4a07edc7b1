@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="emp1" class="com.niltech.beans.Emp1">
+
+	<constructor-arg name="eno" value="1001" />
+	<constructor-arg name="ename" value="Nilesh" />
+	<constructor-arg name="billAmt" value="1256.55f" />
+
+</bean>
+
+	<bean id="emp2" class="com.niltech.beans.Emp1">
+
+		<constructor-arg name="eno" value="1001" />
+		<constructor-arg name="ename" value="Nilesh" />
+		<constructor-arg name="address" value="Lonar" />
+
+	</bean> 
+	
+	<bean id="emp3" class="com.niltech.beans.Emp1">
+
+	<constructor-arg name="eno" value="1001" />
+	<constructor-arg name="billAmt" value="123.000" />
+
+</bean> 
+
+<bean id="stud" class="com.niltech.beans.Student">
+
+<property name="name" value="Nilesh"/>
+<property name="college" value="DIEMS"/>
+<property name="qt" value="B.tech"/>
+<!-- <property name="name" value="Nilesh"/> -->
+
+
+</bean>
+	
+
+
+</beans>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IOCProj04-FactoryPattern&apos; to &apos;IOCProj04-FactoryPattern_Problem&apos;" description="Rename resource &apos;IOCProj04-FactoryPattern&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IOCProj04-FactoryPattern" name="IOCProj04-FactoryPattern_Problem" stamp="1698943210607" updateReferences="true"/>
+</session>

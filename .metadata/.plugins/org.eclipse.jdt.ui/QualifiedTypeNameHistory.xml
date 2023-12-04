@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.FileSystemResource"/>
+    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.FileSystemXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.niltech.comp.Test"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+    <fullyQualifiedTypeName name="com.niltech.beans.WishMessageGenerator"/>
+    <fullyQualifiedTypeName name="com.niltech.comp.Car"/>
+    <fullyQualifiedTypeName name="com.niltech.comp.SportCar"/>
+    <fullyQualifiedTypeName name="com.niltech.comp.Budgetcar"/>
+    <fullyQualifiedTypeName name="com.niltech.comp.LuxoryCar"/>
+    <fullyQualifiedTypeName name="com.niltech.factory.CarFactory"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.niltech.comp.Courier"/>
+    <fullyQualifiedTypeName name="com.niltech.comp.DTDC"/>
+    <fullyQualifiedTypeName name="com.niltech.comp.BlueDart"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.niltech.factory.FlipkartFactory"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.niltech.comp.Flipkart"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="float"/>
+    <fullyQualifiedTypeName name="com.niltech.beans.Customer"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.support.DefaultListableBeanFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanDefinitionReader"/>
+    <fullyQualifiedTypeName name="com.niltech.beans.A"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="com.niltech.beans.B"/>
+</qualifiedTypeNameHistroy>

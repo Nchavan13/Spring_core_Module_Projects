@@ -1,0 +1,5 @@
+package com.niltech.beans;
+
+public class Customer {
+
+}

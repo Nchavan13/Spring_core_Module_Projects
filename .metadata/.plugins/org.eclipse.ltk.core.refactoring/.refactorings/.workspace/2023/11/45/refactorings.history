@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IOCProj05-StrategyDPWithFactoryDP&apos; to &apos;IOCProj05-StrategyDPWithFactoryDPCoreJava&apos;" description="Rename resource &apos;IOCProj05-StrategyDPWithFactoryDP&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IOCProj05-StrategyDPWithFactoryDP" name="IOCProj05-StrategyDPWithFactoryDPCoreJava" stamp="1699171005122" updateReferences="true"/>
+</session>

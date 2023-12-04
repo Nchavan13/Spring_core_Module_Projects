@@ -1,0 +1,5 @@
+package com.niltech.test;
+
+public class ConVsSetter {
+
+}

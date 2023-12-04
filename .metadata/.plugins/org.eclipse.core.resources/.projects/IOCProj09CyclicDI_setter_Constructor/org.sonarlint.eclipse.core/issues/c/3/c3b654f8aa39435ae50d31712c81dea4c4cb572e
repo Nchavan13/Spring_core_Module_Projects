@@ -1,0 +1,6 @@
+
+^	java:S106	"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+Y
+java:S1068"%Remove this unused "a" private field.b 0cc175b9c0f1b6a831c399e269772661h
+f
+java:S1144"+Remove this unused private "B" constructor.8Û¤Š¬À1b 9d5ed678fe57bcca610140957afab571h

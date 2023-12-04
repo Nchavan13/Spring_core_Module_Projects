@@ -1,0 +1,5 @@
+package com.niltech.bo;
+
+public class EmployeeBO {
+
+}

@@ -1,0 +1,5 @@
+# Created at 2023-12-01T22:53:26.690
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Notes\SpringBoot&MicroServices\WorkSpace\Spring-Core-Module\IOCProj11RealtimeDI_Realtime_strategy\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

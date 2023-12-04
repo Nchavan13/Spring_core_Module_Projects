@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;RealTimeDI_Realtime_Strategy_DP&apos;" deleteContents="false" description="Delete resource &apos;RealTimeDI_Realtime_Strategy_DP&apos;" element1="/RealTimeDI_Realtime_Strategy_DP" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1701450321420"/>
+</session>
