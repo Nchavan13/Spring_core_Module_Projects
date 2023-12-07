@@ -23,7 +23,7 @@ public class RealtimeDItest {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter Employee name::");
 		String name=sc.next();
-		System.out.println("Enter Employee address::");
+		System.out.println("Enter Employee Designation::");
 		String desg=sc.next();
 		System.out.println("Enter Employee Basic Salary::");
 		String basicSalary=sc.next();
@@ -38,7 +38,8 @@ public class RealtimeDItest {
 			System.out.println(result);
 			
 		}catch (Exception e) {
-			e.printStackTrace();
+//			e.printStackTrace();
+			System.out.println("Internal problem::"+e.getMessage());
 		}
 	}
 

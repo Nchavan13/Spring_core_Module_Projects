@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--  static factory method returning its own class obhect
+ -->
+ 
+ <bean id="c1" class="java.lang.Class" factory-method="forName">
+      <constructor-arg value="java.util.Date"/>
+<!--  it is not for constructor injection it is for factory method args value
+ --> </bean>
+ 
+ <!--  static factory method returning relevent class obhect-->
+ 
+ <bean id="cal" class="java.util.Calendar" factory-method="getInstance"/>
+ 
+ <!--  static factory method returning un related class obhect-->
+ 
+ <bean id="props" class="java.lang.System" factory-method="getProperties"/>
+ 
+<!--  instance factory method returning its own class object
+ -->  
+ 
+ <bean id="s1" class="java.lang.String">
+ <constructor-arg value="Nilesh"/>
+ 
+ </bean>
+ 
+ <bean id="s2" factory-bean="s1" factory-method="concat">
+     <constructor-arg value="123"/>
+ 
+ </bean>
+ 
+  
+
+
+
+</beans>
