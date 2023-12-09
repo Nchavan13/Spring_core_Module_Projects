@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Notes\SpringBoot&amp;MicroServices\WorkSpace\Spring-Core-Module\IOCProj05-StrategyDPWithFactoryDPCoreJava-propertiesFile"/>
+			<item value="D:\Notes\SpringBoot&amp;MicroServices\WorkSpace\Spring-Core-Module\IOCProj09CyclicDI_setter_Constructor"/>
 			<item value="D:\Notes\SpringBoot&amp;MicroServices\WorkSpace\Spring-Core-Module\IOCProj07-Setter_VS_Constructor"/>
 			<item value="D:\Notes\SpringBoot&amp;MicroServices\WorkSpace\Spring-Core-Module\IOCProj06-StrategyDPWithFactoryDP-Spring"/>
 			<item value="D:\Notes\SpringBoot&amp;MicroServices\WorkSpace\Spring-Core-Module\IOCProj01-SetterInjection\src\main\java\com\niltech\test\SetterInjectionTest.java"/>
@@ -29,6 +31,7 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.niltech.test"/>
+			<item value="Niltech.IOCProj12_SingletonJavaClass"/>
 			<item value="Niltech.IOCproj08CyclicDI_SetterInjection"/>
 			<item value="Niltech.IOCproj08CyclicDI"/>
 			<item value="NilTech"/>
@@ -38,6 +41,9 @@
 			<item value="NilTech"/>
 		</list>
 		<list key="artifactId">
+			<item value="IOCProj13Factory_Method_Bean_Instanntiation"/>
+			<item value="IOCProj12-Singleton_Java_Class"/>
+			<item value="IOCProj12-SingletonJavaClass"/>
 			<item value="RealTimeDI_Realtime_Strategy_DP"/>
 			<item value="IOCProj08CyclicDI_setter_injection"/>
 			<item value="IOCproj08CyclicDI_SetterInjection"/>

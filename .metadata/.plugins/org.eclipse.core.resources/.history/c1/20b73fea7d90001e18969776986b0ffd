@@ -1,5 +1,0 @@
-package com.niltech.service;
-
-public interface IEmployeeMgmtService {
-
-}

@@ -1,7 +1,0 @@
-package com.niltech.dto;
-
-import java.io.Serializable;
-
-public class EmployeeDTO implements Serializable {
-
-}
