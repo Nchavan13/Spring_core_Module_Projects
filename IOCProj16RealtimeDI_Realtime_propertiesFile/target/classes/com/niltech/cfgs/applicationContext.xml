@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+<context:property-placeholder location="com/niltech/commons/jdbc.properties"/>
+
+
+<bean id="drds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<property name="driverClassName" value="${jdbc.driver}" />
+	<property name="url" value="${jdbc.url}" />
+	<property name="username" value="${db.username}" />
+	<property name="password" value="${db.password}" />
+</bean>
+
+	<!-- DAO class config -->
+
+	<bean id="empdao" class="com.niltech.dao.EmployeeDAOImpl">
+		<constructor-arg name="ds" ref="drds" />
+
+	</bean>
+
+	<!-- service class config -->
+	<bean id="empService" class="com.niltech.service.EmployeeMgmtServiceimpl">
+	<constructor-arg name="dao" ref="empdao"></constructor-arg>
+	<property name="osName" value="${os.name}"/>
+		<property name="path" value="${Path}"/>
+	
+
+</bean>
+
+<bean id="controller" class="com.niltech.controller.MainController">
+	<constructor-arg name="service" ref="empService"></constructor-arg>
+</bean>
+
+
+
+
+
+</beans>
