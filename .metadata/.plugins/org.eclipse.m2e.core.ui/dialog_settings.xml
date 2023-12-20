@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Notes\SpringBoot&amp;MicroServices\WorkSpace\Spring-Core-Module\IOCProj20_Annotation_Realtime_Properties_file"/>
 			<item value="D:\Notes\SpringBoot&amp;MicroServices\WorkSpace\Spring-Core-Module\IOCProj05-StrategyDPWithFactoryDPCoreJava-propertiesFile"/>
 			<item value="D:\Notes\SpringBoot&amp;MicroServices\WorkSpace\Spring-Core-Module\IOCProj09CyclicDI_setter_Constructor"/>
 			<item value="D:\Notes\SpringBoot&amp;MicroServices\WorkSpace\Spring-Core-Module\IOCProj07-Setter_VS_Constructor"/>
@@ -41,6 +42,7 @@
 			<item value="NilTech"/>
 		</list>
 		<list key="artifactId">
+			<item value="IOCProj21-Spring-Bean-Life-cycle-Declarative-Approch"/>
 			<item value="IOCProj13Factory_Method_Bean_Instanntiation"/>
 			<item value="IOCProj12-Singleton_Java_Class"/>
 			<item value="IOCProj12-SingletonJavaClass"/>

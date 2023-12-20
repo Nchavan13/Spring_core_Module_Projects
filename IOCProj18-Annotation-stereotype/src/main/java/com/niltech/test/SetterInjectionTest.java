@@ -10,7 +10,7 @@ public class SetterInjectionTest {
 
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("com/niltech/cfg/applicationContext.xml");
 
-		WishMessageGenerator generator=context.getBean("wmg",WishMessageGenerator.class);
+		WishMessageGenerator generator=context.getBean("wishMessageGenerator",WishMessageGenerator.class);
 		/*
 		 * System.out.println(generator.hashCode());
 		 * System.out.println(generator1.hashCode());
@@ -18,8 +18,8 @@ public class SetterInjectionTest {
 		
 		//System.out.println("Spring bean count:"+context.getBeanDefinitionCount());
 
-		String result = generator.generateMessage("Nilesh");
-		System.err.println("Wish Message is:" + result);
+		//String result = generator.generateMessage("Nilesh");
+		//System.err.println("Wish Message is:" + result);
 
 	}
 }
