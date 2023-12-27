@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.core.io.FileSystemResource"/>
-    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-    <fullyQualifiedTypeName name="com.niltech.comp.Test"/>
-    <fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
-    <fullyQualifiedTypeName name="com.niltech.comp.Car"/>
-    <fullyQualifiedTypeName name="com.niltech.comp.SportCar"/>
     <fullyQualifiedTypeName name="com.niltech.comp.Budgetcar"/>
     <fullyQualifiedTypeName name="com.niltech.comp.LuxoryCar"/>
     <fullyQualifiedTypeName name="com.niltech.factory.CarFactory"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.niltech.comp.Courier"/>
     <fullyQualifiedTypeName name="com.niltech.comp.DTDC"/>
     <fullyQualifiedTypeName name="com.niltech.comp.BlueDart"/>
@@ -37,14 +28,12 @@
     <fullyQualifiedTypeName name="org.springframework.context.support.FileSystemXmlApplicationContext"/>
     <fullyQualifiedTypeName name="com.niltech.beans.WishMessageGenerator"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.niltech.beans.VotingEligibilityCheck"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
@@ -55,9 +44,20 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanDefinitionReader"/>
     <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
     <fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextAware"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.niltech.beans.Bat"/>
+    <fullyQualifiedTypeName name="com.niltech.beans.Cricketer"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Lookup"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.niltech.service.BankService"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<bean id="replacer" class=" com.niltech.replacer.InterestReplacer" />
+
+	<bean id="bank" class="com.niltech.service.BankService">
+		<replaced-method name="calInterestAmount" replacer="replacer">
+			<arg-type>double</arg-type>
+			<arg-type>double</arg-type>
+			<arg-type>double</arg-type>
+
+		</replaced-method>
+	</bean>
+
+</beans>
